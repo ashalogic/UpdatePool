@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://github.com/ashalogic/UpdatePool/IG-Management_x64.appinstaller"
+	Version="0.1.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="4a5ff8f8-2ce6-4e9f-b12e-278c85d8c893"
+		Version="0.1.0.0"
+		Publisher="CN=ashal"
+		Uri="https://github.com/ashalogic/UpdatePool/IG-Management_0.1.0.0_x64_Test/IG-Management_0.1.0.0_x64.msix"
+		ProcessorArchitecture="x64" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.NET.CoreRuntime.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="2.2.27404.2"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/ashalogic/UpdatePool/IG-Management_0.1.0.0_x64_Test/Dependencies/x64/Microsoft.NET.CoreRuntime.2.2.appx" />
+		<Package
+			Name="Microsoft.NET.CoreFramework.Debug.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="2.2.27505.2"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/ashalogic/UpdatePool/IG-Management_0.1.0.0_x64_Test/Dependencies/x64/Microsoft.NET.CoreFramework.Debug.2.2.appx" />
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="14.0.27323.0"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/ashalogic/UpdatePool/IG-Management_0.1.0.0_x64_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.appx" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
